@@ -26,7 +26,7 @@ public class UserLoginTests {
     public void setup() {
         WebDriverManager.chromedriver().setup();
         driver = getDriver();
-        driver.get("https://www.saedemo.com/");
+        driver.get("https://www.saucedemo.com/");
     }
 
     @After
