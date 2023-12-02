@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>	
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="iSelect">
+	
+=
+
+	<test name="iSelect Smoke Testing">
+		<parameter name="browser" value="Chrome"></parameter>
+		<groups>
+			<run>
+				<include name="Smoke"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="locating.elements.LocatingElementsTest">
+			</class> <!-- com.iselect.tests.GlobalHomePageTest -->
+		</classes>
+	</test>
+</suite>
